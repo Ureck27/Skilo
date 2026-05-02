@@ -1,0 +1,10 @@
+.nav-btn-one{
+    border: 2px solid #0e1e5d;
+    background-color: transparent;
+    color:#0e1e5d;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin: 5px;
+    border-radius: 50%;
+}
