@@ -1,0 +1,10 @@
+.store-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.store-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0e1e5d;
+}
