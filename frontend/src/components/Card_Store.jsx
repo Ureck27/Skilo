@@ -1,14 +1,14 @@
 import "./Card_Store.css";
 
-function Card_Store({ name, price, image }) {
+function Card_Store({ name, price, image, category, id }) {
     return (
         <>
             <div className="card">
                 <img src={image} alt={name} className="card-image" />
                 <div className="card-content">
                     <div className="card-category-id">
-                        <p className="card-category">SKI POLE</p>
-                        <p className="id-product">123456789</p>
+                        <p className="card-category">{category}</p>
+                        <p className="id-product">{id}</p>
                     </div>
                     <div className="card-title-product">
                         <h3 className="card-title">{name}</h3>

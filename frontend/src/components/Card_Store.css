@@ -1,3 +1,9 @@
+.card-category-id{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .card-title-product{
     display: flex;
     justify-content: space-between;
