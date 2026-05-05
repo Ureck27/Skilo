@@ -1,3 +1,14 @@
+.card{
+    background-color: #fff;
+    width: 300px;
+    height: 400px;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
 .card-category-id{
     display: flex;
     justify-content: space-between;
@@ -46,3 +57,4 @@
     border: #0e1e5d 2px solid;
     padding: 10px;
 }
+
