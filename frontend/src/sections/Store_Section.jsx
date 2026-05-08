@@ -32,6 +32,7 @@ function Store_Section() {
               image={helmet}
               category="SKI POLES"
               id="123456789"
+              discount="20"
             />
             <Card_Store
               name="SKI POLE"
@@ -46,6 +47,7 @@ function Store_Section() {
               image={backpack}
               category="SKI POLES"
               id="123456789"
+              discount="35"
             />
           </div>
       </section>
