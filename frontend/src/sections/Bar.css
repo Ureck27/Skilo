@@ -1,0 +1,68 @@
+.bar-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: #000; /* Sleek black background */
+    padding: 20px 0;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+.bar {
+    display: flex;
+    width: max-content;
+    animation: scroll 25s linear infinite;
+}
+
+.bar-set {
+    display: flex;
+    align-items: center;
+    gap: 80px; /* Wider spacing for a cleaner look */
+    padding-right: 80px;
+}
+
+.bar:hover {
+    animation-play-state: paused;
+}
+
+.item-bar {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 20px;
+    transition: transform 0.3s ease;
+}
+
+.item-bar:hover {
+    transform: scale(1.05); /* Subtle pop on hover */
+}
+
+.bar img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%; /* Circular images look more modern */
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.item-bar p {
+    margin: 0;
+    color: #fff;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-weight: 800;
+    font-size: 1.2rem;
+    text-transform: uppercase; /* Modern uppercase style */
+    letter-spacing: 2px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
