@@ -16,9 +16,9 @@ function Discover() {
             <p>and control no matter the mountain</p>
         </div>
         <a href="#">
-        <div>
+        <div className="discover-btn">
             <p>Discover More</p>
-            <p>⬈</p>
+            <p id="arrow">⬈</p>
         </div>
         </a>
       </div>
