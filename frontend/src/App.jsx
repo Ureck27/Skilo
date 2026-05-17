@@ -2,6 +2,7 @@ import Store_Section from "./sections/Store_Section"
 import "./App.css"
 import Title from "./sections/Title"
 import Bar from "./sections/Bar"
+import Discover from "./sections/Discover"
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <Title />
     <hr></hr>
     <Bar />
+    <Discover />
     </>
   )
 }
