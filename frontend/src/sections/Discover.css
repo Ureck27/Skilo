@@ -1,11 +1,19 @@
 .discover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     background-image: url("../assets/background.jpg");
+    background-color: rgb(26, 141, 255, 0.4);
+    background-blend-mode: soft-light;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
 }
 
 .discover-btn{
     display: flex;
+    align-items: center;
+    color: #fff;
     background-color:  #0e1e5d;
     padding: 10px 20px;
     border: none;
@@ -15,8 +23,9 @@
 }
 
 .discover-btn #arrow{
-    margin-left: 10px;
-    color:aqua
+    margin-left: .7rem;
+    color:aqua;
+    font-size: .8rem;
 }
 
 .discover-center {
@@ -26,6 +35,21 @@
   justify-content: center;
   padding: 20px;
   text-align: center;
+}
+
+.discover-center h1 {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 800;
+  line-height: 1;
+}
+
+#season-essentials{
+    border: white solid 1px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 800;
 }
 
 .discover-center a{

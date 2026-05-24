@@ -1,0 +1,23 @@
+.hero{
+    height: 100vh;
+}
+
+.SnowMeetsStyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px 10px;
+    background-color: #1da0fa;
+    width: 250px;
+}
+
+.SnowMeetsStyle img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+
+}
+
