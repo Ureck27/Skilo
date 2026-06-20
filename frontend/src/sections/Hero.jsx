@@ -15,12 +15,10 @@ function Hero() {
                 <p>Snow meets style</p>
             </div>
             <div className="hero-title">
-                <h1>PERFECT SNOW</h1>
-                <h1>ESCAPE</h1>
+                <h1>PERFECT SNOW<br></br>ESCAPE</h1>
             </div>
             <div className="hero-subtitle">
-              <p>Snow meets style and every moment</p>
-              <p>sparkles with adventure</p>
+              <p>Snow meets style and every moment<br></br>sparkles with adventure</p>
             </div>
             <div className="hero-button">
                 <a href="#" className="hero-button-link">Get Passes</a>
@@ -29,11 +27,10 @@ function Hero() {
             <div className="icons-persons">
               <img src={profileIcon1} alt="Persons Icon 1" />
               <img src={profileIcon2} alt="Persons Icon 2" />
+
             </div>
             <div className="text-below">
-              <p>RIDE WITH PASSION, LAUGH</p>
-              <p>WITH FRIENDS AND LIVE THE</p>
-              <p>MAGIC OF WINTER</p>
+              <p> RIDE WITH PASSION, LAUGH<br></br>WITH FRIENDS AND LIVE THE<br></br>MAGIC OF WINTER</p>
             </div>
 
     </div>
