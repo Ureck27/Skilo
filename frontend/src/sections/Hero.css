@@ -59,7 +59,7 @@
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    width: 280px;
+    width: 220px;
     background-color: #0e1e5d;
     padding: 30px;
 }
@@ -86,4 +86,25 @@
     font-weight: 600;
     font-size: 2rem;
     line-height: 1;
+}
+
+.card-1{
+    margin-top: -210px;
+    margin-left: -1140px;
+    width: 260px;
+    background-color: #ffffff;
+    padding: 10px 20px;
+}
+
+.card-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #0e1e5d;
+    font-size: 1rem;
+}
+.card-image img{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
 }
